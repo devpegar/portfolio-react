@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.wave-effect {
+  transform-origin: center center;
+  animation: wave 6s ease-in-out alternate infinite;
+}
