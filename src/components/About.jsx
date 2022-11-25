@@ -15,7 +15,7 @@ function About() {
             en mantenimiento de computadoras. Desde el 2017 trabajo en una
             empresa que brinda acceso a internet de forma inalambrica y por
             fibra óptica. Pero con la pandemia, en el año 2020, comence a
-            realizar cursos sobre programación web full stack con python. Esta
+            realizar cursos sobre programación web full stack con python. Este
             año comence a desarrollarme en el lenguaje javascript y aprendiendo
             react js y node js.
           </p>

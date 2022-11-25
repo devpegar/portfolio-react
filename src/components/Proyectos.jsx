@@ -108,7 +108,7 @@ function Proyectos() {
           type: "progressbar",
         }}
         modules={[Autoplay, Pagination, EffectCoverflow]}
-        className="w-4/6 m-auto"
+        className="w-full m-auto"
       >
         {proyectosEnSlider(ultimosProyectos)}
       </Swiper>
@@ -118,23 +118,19 @@ function Proyectos() {
         breakpoints={{
           400: {
             slidesPerView: 1,
-            spaceBetween: 10,
-          },
-          640: {
-            slidesPerView: 2,
-            spaceBetween: 10,
+            spaceBetween: 20,
           },
           768: {
-            slidesPerView: 3,
-            spaceBetween: 10,
+            slidesPerView: 2,
+            spaceBetween: 25,
           },
           1024: {
             slidesPerView: 4,
-            spaceBetween: 10,
+            spaceBetween: 20,
           },
         }}
         modules={[Pagination]}
-        className="w-11/12 mx-auto my-5 bg-gray-300 rounded-lg p-5"
+        className="w-full mx-auto my-5 bg-gray-300 rounded-lg p-5"
       >
         {proyectosEnLista(proyectosRestantes)}
       </Swiper>
