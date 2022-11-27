@@ -77,6 +77,22 @@ const projects = [
     sitio: "https://devpeg.ar/proyectos/administradordecitas",
     github: "https://github.com/devpegar/administrador-de-citas",
   },
+  {
+    imagen: "/slider/11.png",
+    titulo: "Consulta el clima",
+    descripcion:
+      "Proyecto realizado con html, tailwind y javascript consumiendo una api con fetch",
+    sitio: "https://clima.devpeg.ar/",
+    github: "https://github.com/devpegar/Fetch-api-Clima",
+  },
+  {
+    imagen: "/slider/12.png",
+    titulo: "Buscador de imagenes",
+    descripcion:
+      "Proyecto realizado con html, tailwind y javascript consumiendo una api con fetch",
+    sitio: "https://devpeg.ar/proyectos/buscador-imagenes",
+    github: "https://github.com/devpegar/buscador-de-imagenes",
+  },
 ];
 
 const skills = [
