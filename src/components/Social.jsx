@@ -6,24 +6,32 @@ function Social() {
       <a
         className="hover:text-fuchsia-400 transition hover:scale-125"
         href="https://instagram.com/devpegar"
+        target="_blank"
+        rel="noopener noreferrer"
       >
         <FaInstagram />
       </a>
       <a
         className="hover:text-cyan-500 transition hover:scale-125"
-        href="https://twitter.com/devpegar"
+        href="https://twitter.com/devpeg_ar"
+        target="_blank"
+        rel="noopener noreferrer"
       >
         <FaTwitter />
       </a>
       <a
         className="hover:text-blue-700 transition hover:scale-125"
         href="https://facebook.com/devpegar"
+        target="_blank"
+        rel="noopener noreferrer"
       >
         <FaFacebookF />
       </a>
       <a
         className="hover:text-gray-900 hover:bg-white outline-transparent rounded-full transition hover:scale-125"
         href="https://github.com/devpegar"
+        target="_blank"
+        rel="noopener noreferrer"
       >
         <FaGithub />
       </a>

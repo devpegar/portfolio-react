@@ -93,6 +93,14 @@ const projects = [
     sitio: "https://devpeg.ar/proyectos/buscador-imagenes",
     github: "https://github.com/devpegar/buscador-de-imagenes",
   },
+  {
+    imagen: "/slider/13.png",
+    titulo: "Cotizador criptomonedas",
+    descripcion:
+      "Proyecto realizado con html, tailwind y javascript consumiendo una api con fetch",
+    sitio: "https://devpeg.ar/proyectos/criptomonedas",
+    github: "https://github.com/devpegar/criptomonedas",
+  },
 ];
 
 const skills = [
