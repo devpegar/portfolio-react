@@ -4,6 +4,7 @@ import Proyectos from "./components/Proyectos";
 import Skills from "./components/Skills";
 import Contacto from "./components/Contacto";
 import Separador from "./tools/Separador";
+import Footer from "./components/Footer";
 function App() {
   return (
     <div className="bg-normal">
@@ -15,6 +16,8 @@ function App() {
       <Skills />
       <Separador />
       <Contacto />
+      <Separador />
+      <Footer />
     </div>
   );
 }

@@ -42,24 +42,31 @@ function NavBar() {
         scroll ? "bg-cyan-700" : "bg-transparent"
       }`}
     >
-      <a className="flex justify-center items-center" href="#">
-        {code}
-        <p className="text-4xl font-logo">DevpegAr</p>
+      <a className="flex justify-center items-center gap-4" href="#">
+        <img
+          className="w-20 tablet:w-32 rounded-full ml-10"
+          src="/logo.png"
+          alt="Logo"
+        />
+        {/* <p className="text-4xl font-logo">DevpegAr</p> */}
       </a>
       <div
         onClick={() => setOpen(!open)}
-        className="absolute right-6 top-8 text-3xl cursor-pointer tablet:hidden z-50"
+        className="absolute right-6 top-12 text-3xl cursor-pointer tablet:hidden z-50"
       >
         {open ? close : menu}
       </div>
       <nav
-        className={`flex justify-center items-center text-4xl tablet:text-sm absolute w-full h-screen bg-blue-800 tablet:border-b-2 tablet:border-white tablet:pb-2 tablet:top-0 tablet:h-auto tablet:bg-transparent tablet:static tablet:w-auto transition-all duration-500 ${
-          open ? "top-0 left-0" : "top-[-900px]"
+        className={`flex justify-center items-center text-4xl tablet:text-sm absolute w-full h-[400px] bg-blue-800 tablet:border-b-2 tablet:border-white tablet:pb-2 tablet:top-0 tablet:h-auto tablet:bg-transparent tablet:static tablet:w-auto transition-all duration-500 ${
+          open ? "top-0 left-0" : "top-[-500px]"
         }`}
       >
         <ul className="tablet:flex tablet:justify-center tablet:items-center text-white tablet:pb-2">
           {links.map((link, index) => (
-            <li key={index} className="text-center p-2">
+            <li
+              key={index}
+              className="text-center text-lg uppercase p-2 hover:text-cyan-300 transition-colors duration-300"
+            >
               <a onClick={() => setOpen(false)} href={link.link}>
                 {link.title}
               </a>
