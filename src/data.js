@@ -101,6 +101,22 @@ const projects = [
     sitio: "https://devpeg.ar/proyectos/criptomonedas",
     github: "https://github.com/devpegar/criptomonedas",
   },
+  {
+    imagen: "/slider/14.png",
+    titulo: "Próximo Feriado en argentina",
+    descripcion:
+      "Proyecto creado con reactjs y tailwindcss y consumo de api feriados nacionales",
+    sitio: "https://devpeg.ar/proyectos/proximoferiado",
+    github: "https://github.com/devpegar/proximo-feriado",
+  },
+  {
+    imagen: "/slider/15.png",
+    titulo: "QWeather el tiempo a tiempo",
+    descripcion:
+      "Proyecto creado con reactjs y tailwindcss y consumo de api para mostrar el clima en tu ciudad",
+    sitio: "https://devpeg.ar/proyectos/qweather",
+    github: "https://github.com/devpegar/qweather",
+  },
 ];
 
 const skills = [
